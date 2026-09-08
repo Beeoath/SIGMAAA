@@ -301,7 +301,7 @@ async function startServer() {
       // Daftar hash SHA-256 yang diizinkan (Master key disimpan dalam bentuk digest terenkripsi)
       const AUTHORIZED_KEY_HASHES: string[] = [
         '25350ce3c314e3b610b9b5ff6fa86d996dadd298e5a5e39f6d6cf26f6d9b4d44', // SHA256 of SIGMA-DEV-2026
-        '04d1694f4c9c735d46f56475b75ad07f66a2f8bdf9b3e15b6d51bbd3381a4b5b'  // SHA256 of DEV-SIGMA-2026
+       'ed911f42e789354980790bd9c6af97e865857175838696e696e5cc4bfe00a1d2'  // SHA256 of DEV-SIGMA-2026
       ];
 
       // Jika ada custom master key di environment, komputasi hash-nya secara dinamis
