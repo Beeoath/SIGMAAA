@@ -1,0 +1,6 @@
+{
+  "name": "SIGMA - Modul Matematika TKA",
+  "description": "Sistem Interaktif Gerbang Modul Matematika Atraktif untuk Siswa Kelas XI MAS Darunnajah 9 dalam Persiapan Tes Kemampuan Akademik (TKA).",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

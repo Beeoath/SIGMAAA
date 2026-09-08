@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="id" class="dark">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>SIGMA - Sistem Interaktif Gerbang Modul Matematika Atraktif</title>
+    <meta name="description" content="Platform Pembelajaran Matematika TKA untuk Siswa Kelas XI MAS Darunnajah 9 oleh Tim PKM Matematika Universitas Pamulang (UNPAM)." />
+    <meta property="og:title" content="SIGMA - Modul Matematika TKA MAS Darunnajah 9" />
+    <meta property="og:description" content="Sistem Interaktif Gerbang Modul Matematika Atraktif - Persiapan Tes Kemampuan Akademik (TKA) Kelas XI." />
+    <meta property="og:type" content="website" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Anton&family=Bebas+Neue&family=Plus+Jakarta+Sans:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.8/dist/katex.min.css" />
+    <script>
+      (function() {
+        try {
+          var t = localStorage.getItem('sigma_theme');
+          if (t === 'light') {
+            document.documentElement.classList.remove('dark');
+            document.documentElement.classList.add('light');
+            document.documentElement.setAttribute('data-theme', 'light');
+          } else {
+            document.documentElement.classList.add('dark');
+            document.documentElement.classList.remove('light');
+            document.documentElement.setAttribute('data-theme', 'dark');
+          }
+        } catch (e) {}
+      })();
+    </script>
+  </head>
+  <body class="antialiased selection:bg-[#10B981]/30 selection:text-[#10B981] transition-colors duration-200">
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>
+
